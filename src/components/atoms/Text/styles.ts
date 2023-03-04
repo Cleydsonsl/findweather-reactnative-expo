@@ -9,16 +9,13 @@ export interface TextProps {
     fontSize?: number;
     fontWeight?: TextStyle['fontWeight'];
     letterSpacing?: number;
-    lineHeight?: number;
     textAlign?: TextStyle['textAlign'];
 }
 
-export const Container = styled.Text<TextProps>`
+export const TextContent = styled.Text<TextProps>`
   color: ${({ color, theme }) => color || theme.colors.white};
   font-family: ${({ fontFamily, theme }) => fontFamily || theme.fonts.light};
   font-size: ${({ fontSize }) => fontSize || 16}px;
   font-weight: ${({ fontWeight }) => fontWeight || 'normal'};
-  letter-spacing: ${({ letterSpacing }) => letterSpacing || 0}px;
-  line-height: ${({ lineHeight }) => lineHeight || 22}px;
   text-align: ${({ textAlign }) => textAlign || 'left'};
 `;

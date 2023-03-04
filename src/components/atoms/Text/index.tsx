@@ -1,7 +1,7 @@
-import { Container, TextProps } from "./styles";
+import { TextProps, TextContent } from "./styles";
 
 export function Text({children, ...rest}: TextProps){
     return (
-        <Container {...rest}>{children}</Container>
+        <TextContent {...rest}>{children}</TextContent>
     )
 }
