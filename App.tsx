@@ -1,6 +1,6 @@
 import React from "react";
-import {ActivityIndicator} from "react-native";
-import {ThemeProvider} from "styled-components";
+import { ActivityIndicator } from "react-native";
+import { ThemeProvider } from "styled-components";
 import { useFonts,
   Overpass_300Light,
   Overpass_400Regular,
@@ -8,9 +8,11 @@ import { useFonts,
   Overpass_600SemiBold,
   Overpass_700Bold
 } from "@expo-google-fonts/overpass";
+import theme from "./src/theme";
+import {Welcome} from "./src/screens/welcome";
 
 export default function App() {
-  const [fontsLoaded] = useFonts({
+  const [ fontsLoaded ] = useFonts({
     Overpass_300Light,
     Overpass_400Regular,
     Overpass_500Medium,
@@ -23,7 +25,8 @@ export default function App() {
   }
 
   return (
-    <ThemeProvider>
+    <ThemeProvider theme={theme}>
+      <Welcome/>
     </ThemeProvider>
   );
 }
