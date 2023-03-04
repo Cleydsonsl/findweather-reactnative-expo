@@ -1,0 +1,42 @@
+export default {
+    colors: {
+        white: "#FFFFFF",
+        gray_100: "#AFAFAF",
+        gray_200: "#A2A2A2",
+        gray_300: "#838384",
+        gray_400: "#7E7E7E",
+        gray_500: "#6F7072",
+        gray_600: "#4D4D4D",
+        dark_100: "#33383E",
+        dark_200: "#2C3137",
+        dark_300: "#23262B",
+        dark_400: "#212428",
+        dark: "#1B1D22"
+    },
+    fonts: {
+        light: "Overpass_300Light",
+        regular: "Overpass_400Regular",
+        medium: "Overpass_500Medium",
+        semib: "Overpass_600SemiBold",
+        bold: "Overpass_700Bold",
+    },
+    size: {
+        xs: "12px",
+        sm: "14px",
+        md: "16px",
+        lg: "18px",
+        xl: "20px",
+        "1xl": "22px",
+        "2xl": "24px",
+        "3xl": "28px",
+        "4xl": "32px",
+        "5xl": "36px",
+        "6xl": "40px",
+        "7xl": "44px",
+        "8xl": "48px",
+        "9xl": "52px",
+        "10xl": "56px",
+        "11xl": "60px",
+        "12xl": "64px",
+    }
+}
