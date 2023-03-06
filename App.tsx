@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import React from "react";
 import { ActivityIndicator } from "react-native";
 import { ThemeProvider } from "styled-components";
@@ -9,7 +10,7 @@ import { useFonts,
   Overpass_700Bold
 } from "@expo-google-fonts/overpass";
 import theme from "./src/theme";
-import {Welcome} from "./src/screens/welcome";
+import {Routes} from "./src/routes";
 
 export default function App() {
   const [ fontsLoaded ] = useFonts({
@@ -26,7 +27,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Welcome/>
+      <Routes/>
     </ThemeProvider>
   );
 }
