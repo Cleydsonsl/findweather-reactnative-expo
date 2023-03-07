@@ -5,7 +5,7 @@ import theme from "../../../theme";
 
 export interface InputProps extends TextInputProps {
     name: string;
-    placeholder: string;
+    placeholder?: string;
 }
 
 export const ContentInput = styled(TextInput).attrs({

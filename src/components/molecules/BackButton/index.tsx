@@ -1,9 +1,13 @@
 import {Container, IconButton} from "./styles";
 import {Ionicons} from "react-native-vector-icons";
 
-export function BackButton() {
+interface IButtonProps {
+    onPress: () => void;
+}
+
+export function BackButton({onPress}: IButtonProps) {
     return (
-        <Container>
+        <Container onPress={onPress}>
             <IconButton name="md-chevron-back-outline" component={Ionicons} />
         </Container>
     )
