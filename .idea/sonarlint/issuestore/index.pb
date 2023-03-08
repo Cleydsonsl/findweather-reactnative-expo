@@ -49,8 +49,6 @@ L
 src/hooks/StackNavigator.tsx,0/7/07b18419f737b61b451070bda9000b8d42771f7e
 L
 src/screens/search/styles.ts,d/b/db5289b64b69145abd73b22cca248dac917fe26f
-M
-src/utils/search.interface.ts,5/a/5aaa2989b92fd1f4fbceaeb58987f08916530aca
 ?
 babel.config.js,7/7/775bd43a34022cef87b6af825cbd551f29473f73
 _
