@@ -1,11 +1,12 @@
 import styled from "styled-components/native";
-import {TextInput, TextInputProps} from "react-native";
-import {RFValue} from "react-native-responsive-fontsize";
+import {TextInput, TextInputProps, TextProps} from "react-native";
 import theme from "../../../theme";
 
-export interface InputProps extends TextInputProps {
-    name: string;
-    placeholder?: string;
+export interface InputProps extends TextProps {
+    value: string
+    onSubmitEditing: () => void
+    placeholder: string;
+    onChangeText: (value: string) => void;
 }
 
 export const ContentInput = styled(TextInput).attrs({

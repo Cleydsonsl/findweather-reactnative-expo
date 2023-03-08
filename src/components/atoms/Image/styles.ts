@@ -1,7 +1,7 @@
-import { ImageSourcePropType } from "react-native";
+import {ImageProps, ImageSourcePropType} from "react-native";
 import styled from "styled-components/native";
 
-export interface IImageProps {
+export interface IImageProps extends ImageProps{
     width?: any;
     height?: string;
     borderRadius?: number;
