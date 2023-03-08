@@ -17,8 +17,6 @@ C
 src/@types/png.d.ts,e/4/e44d4a1dadd46725adb26da72ded839a7ac44387
 9
 	yarn.lock,5/3/53585a096fe3a3b96321113856ae62602995a33b
-7
-App.tsx,2/f/2f3db35b9bba122792d724b9b48a0aac92ebbb79
 D
 src/routes/index.tsx,9/9/99cca8a6b6c12875f10158e9178649e7f1f4670d
 S
